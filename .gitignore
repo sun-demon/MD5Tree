@@ -1,0 +1,37 @@
+# Build directories
+build*/
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.exe
+*.a
+*.lib
+
+# Qt-generated
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qm
+
+# Qt Creator user files
+*.pro.user
+*.pro.user.*
+*.qmlc
+*.jsc
+*.autosave
+
+# Debug/Release
+debug/
+release/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
