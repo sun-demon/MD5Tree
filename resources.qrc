@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/md5tree.png</file>
+    </qresource>
+</RCC>
