@@ -50,7 +50,7 @@
      </layout>
     </item>
     <item>
-     <widget class="QTableWidget" name="resultsTable">
+     <widget class="QTableView" name="resultsTable">
       <property name="font">
        <font>
         <family>Consolas</family>
@@ -66,9 +66,6 @@
       <property name="selectionBehavior">
        <enum>QAbstractItemView::SelectRows</enum>
       </property>
-      <attribute name="horizontalHeaderDefaultSectionSize">
-       <number>166</number>
-      </attribute>
       <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
        <bool>false</bool>
       </attribute>
@@ -78,21 +75,6 @@
       <attribute name="verticalHeaderVisible">
        <bool>false</bool>
       </attribute>
-      <column>
-       <property name="text">
-        <string>Имя файла</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>MD5</string>
-       </property>
-      </column>
-      <column>
-       <property name="text">
-        <string>ID потока</string>
-       </property>
-      </column>
      </widget>
     </item>
     <item>
@@ -147,8 +129,15 @@
     </item>
    </layout>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="ProgressStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>
+ <customwidgets>
+  <customwidget>
+   <class>ProgressStatusBar</class>
+   <extends>QStatusBar</extends>
+   <header>progressstatusbar.h</header>
+  </customwidget>
+ </customwidgets>
 </ui>

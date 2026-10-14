@@ -20,7 +20,8 @@ SOURCES += \
 
 HEADERS += \
     hashtask.h \
-    mainwindow.h
+    mainwindow.h \
+    progressstatusbar.h
 
 FORMS += \
     mainwindow.ui

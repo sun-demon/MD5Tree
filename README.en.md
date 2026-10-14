@@ -50,9 +50,16 @@ Requirements: Qt 5.14.1+ (Widgets), C++17 compiler.
 
 ## Usage
 
-1. **Обзор…** (Browse) — select a directory.
+1. **Обзор…** (Browse) — select a directory in the folder tree. Files are visible, but only folders can be selected.
 2. **Старт** (Start) — begin scanning.
 3. **Стоп** (Stop) — cancel. Already processed rows remain.
+4. The table displays paths relative to the selected directory, in lexicographic order.
+
+While scanning, the status bar shows an animated busy indicator because the total
+number of folders and files is not known in advance. During hashing, the progress
+bar shows the percentage of bytes processed; folder/file counts and total size are
+available in its tooltip. Files being hashed appear in the table immediately.
+Results use a Qt data model instead of separate cell widgets for every row.
 
 ## License
 
