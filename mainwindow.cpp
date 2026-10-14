@@ -111,7 +111,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    m_pool.setMaxThreadCount(2);
+    m_pool.setMaxThreadCount(16);
 
     m_resultsModel = new FileResultsModel(this);
     ui->resultsTable->setModel(m_resultsModel);

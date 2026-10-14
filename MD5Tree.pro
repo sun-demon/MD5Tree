@@ -4,7 +4,7 @@ greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++17
 
-VERSION = 0.1.0
+VERSION = 0.2.0
 TARGET = MD5Tree
 
 win32:RC_ICONS = icons/md5tree.ico
