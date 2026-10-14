@@ -24,7 +24,7 @@ and multithreaded MD5 hashing.
 
 ## Running
 
-**Windows:** download `MD5Tree-0.1.0-win64.zip` from the Releases page, unpack
+**Windows:** download `MD5Tree-0.2.0-win64.zip` from the Releases page, unpack
 and run `MD5Tree.exe`. No Qt installation required.
 
 - [Releases on GitHub](https://github.com/sun-demon/MD5Tree/releases)
