@@ -24,16 +24,23 @@ and multithreaded MD5 hashing.
 
 ## Running
 
-**Windows:** download `MD5Tree-0.1.0-win64.zip` from the
-[Releases](https://github.com/sun-demon/MD5Tree/releases) page, unpack
+**Windows:** download `MD5Tree-0.1.0-win64.zip` from the Releases page, unpack
 and run `MD5Tree.exe`. No Qt installation required.
+
+- [Releases on GitHub](https://github.com/sun-demon/MD5Tree/releases)
+- [Releases on Mos.Hub](https://hub.mos.ru/sun-demon/md5tree/-/releases)
 
 **Linux/macOS:** build from source (see below).
 
 ## Building
 
 ```bash
+# GitHub
 git clone https://github.com/sun-demon/MD5Tree.git
+
+# or Mos.Hub
+git clone https://hub.mos.ru/sun-demon/md5tree.git
+
 cd MD5Tree
 qmake MD5Tree.pro CONFIG+=release
 make          # or mingw32-make on Windows

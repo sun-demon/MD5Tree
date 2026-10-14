@@ -22,16 +22,24 @@
 
 ## Запуск
 
-**Windows:** скачайте `MD5Tree-0.1.0-win64.zip` со страницы
-[Releases](https://github.com/sun-demon/MD5Tree/releases), распакуйте
+**Windows:** скачайте `MD5Tree-0.1.0-win64.zip` со страницы Releases, распакуйте
 и запустите `MD5Tree.exe`. Qt не требуется — всё включено.
+
+
+- [Releases на GitHub](https://github.com/sun-demon/MD5Tree/releases)
+- [Releases на Мос.Хаб](https://hub.mos.ru/sun-demon/md5tree/-/releases)
 
 **Linux/macOS:** соберите из исходников (см. ниже).
 
 ## Сборка
 
 ```bash
+# GitHub
 git clone https://github.com/sun-demon/MD5Tree.git
+
+# или Мос.Хаб
+git clone https://hub.mos.ru/sun-demon/md5tree.git
+
 cd MD5Tree
 qmake MD5Tree.pro CONFIG+=release
 make          # или mingw32-make на Windows
